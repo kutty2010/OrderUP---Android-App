@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/newpic">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/welcomeMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Header Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profileImage"
+                android:layout_width="@dimen/profile_image_size"
+                android:layout_height="@dimen/profile_image_size"
+                android:src="@drawable/mee"
+                app:civ_border_color="@color/white"
+                app:civ_border_width="2dp" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/userName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/karthik_a_e"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/profile_name_text_size"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/userPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="@string/_91_7019689043"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/profile_phone_text_size" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Profile Options Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_options"
+            android:textSize="@dimen/profile_options_title_size"
+            android:paddingTop="20sp"
+            android:layout_marginTop="20sp"
+            android:textColor="#000000"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Options List -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="10sp"
+            android:layout_marginTop="30sp">
+
+            <!-- Order Option -->
+            <LinearLayout
+                android:id="@+id/order_id"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/profile_option_height"
+                android:orientation="horizontal"
+                android:paddingVertical="12dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?attr/selectableItemBackground">
+
+                <ImageView
+                    android:layout_width="@dimen/profile_option_icon_size"
+                    android:layout_height="@dimen/profile_option_icon_size"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/orders"
+                    android:contentDescription="@string/edi_txt" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/take_orders"
+                    android:textSize="@dimen/profile_option_text_size"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#000000"
+                    android:layout_marginStart="16dp"/>
+            </LinearLayout>
+
+            <!-- Edit Profile Option -->
+            <LinearLayout
+                android:id="@+id/editProfileOption"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/profile_option_height"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:orientation="horizontal"
+                android:paddingVertical="12dp">
+
+                <ImageView
+                    android:layout_width="@dimen/profile_option_icon_size"
+                    android:layout_height="@dimen/profile_option_icon_size"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/prof"
+                    android:contentDescription="@string/edi_txt" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/edit_profile11"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/profile_option_text_size"
+                    android:layout_gravity="center_vertical"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <!-- Settings Option -->
+            <LinearLayout
+                android:id="@+id/settingsOption"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/profile_option_height"
+                android:orientation="horizontal"
+                android:paddingVertical="12dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?attr/selectableItemBackground">
+
+                <ImageView
+                    android:layout_width="@dimen/profile_option_icon_size"
+                    android:layout_height="@dimen/profile_option_icon_size"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/set"
+                    android:contentDescription="@string/edi_txt" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/appsettings"
+                    android:textSize="@dimen/profile_option_text_size"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#000000"
+                    android:layout_marginStart="16dp"/>
+            </LinearLayout>
+
+            <!-- Help Option -->
+            <LinearLayout
+                android:id="@+id/helpOption"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/profile_option_height"
+                android:orientation="horizontal"
+                android:paddingVertical="12dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?attr/selectableItemBackground">
+
+                <ImageView
+                    android:layout_width="@dimen/profile_option_icon_size"
+                    android:layout_height="@dimen/profile_option_icon_size"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/help"
+                    android:contentDescription="@string/edi_txt" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/help"
+                    android:textSize="@dimen/profile_option_text_size"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#000000"
+                    android:layout_marginStart="16dp"/>
+            </LinearLayout>
+
+            <!-- Change Password Option -->
+            <LinearLayout
+                android:id="@+id/changePasswordOption"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/profile_option_height"
+                android:orientation="horizontal"
+                android:paddingVertical="12dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?attr/selectableItemBackground">
+
+                <ImageView
+                    android:layout_width="@dimen/profile_option_icon_size"
+                    android:layout_height="@dimen/profile_option_icon_size"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/cp"
+                    android:contentDescription="@string/edi_txt" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/change_password2"
+                    android:textSize="@dimen/profile_option_text_size"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#000000"
+                    android:layout_marginStart="16dp"/>
+            </LinearLayout>
+
+            <!-- Logout Option -->
+            <LinearLayout
+                android:id="@+id/logoutOption"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/profile_option_height"
+                android:orientation="horizontal"
+                android:paddingVertical="12dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?attr/selectableItemBackground">
+
+                <ImageView
+                    android:layout_width="@dimen/profile_option_icon_size"
+                    android:layout_height="@dimen/profile_option_icon_size"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/log"
+                    android:contentDescription="@string/edi_txt" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/logout22"
+                    android:textSize="@dimen/profile_option_text_size"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#000000"
+                    android:layout_marginStart="16dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

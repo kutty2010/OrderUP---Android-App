@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="orange"> </color>
+    <color name="brown">#b29a7a</color>
+    <color name="light_brown">#d9c6b0</color>
+    <color name="dark_brown">#8b5a2b</color>
+    <color name="beige"> #A78C71</color>
+    <color name="gold_ecru">#D8C39F</color>
+    <color name="offwhite">#F8F9FA</color>
+    <color name="lightgray">#F5F5F5</color>
+    <color name="GREEN">#4CAF50</color>
+
+    <color name="primary_500">#4361EE</color>  <!-- Vibrant blue -->
+    <color name="card_bg">#FFFFFF</color>      <!-- Pure white card -->
+    <color name="text_primary">#2B2D42</color> <!-- Dark navy text -->
+    <color name="text_secondary">#8D99AE</color> <!-- Gray subtext -->
+    <color name="text_field_stroke">#EDF2F4</color> <!-- Light border -->
+    <color name="shadow_primary">#1A4361EE</color> <!-- Subtle shadow -->
+    <color name="ripple_white">#26FFFFFF</color>
+
+
+</resources>

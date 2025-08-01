@@ -1,0 +1,18 @@
+<resources>
+    <!-- Profile Image -->
+    <dimen name="profile_image_size">80dp</dimen>
+
+    <!-- Profile Name -->
+    <dimen name="profile_name_text_size">24sp</dimen>
+
+    <!-- Profile Phone -->
+    <dimen name="profile_phone_text_size">16sp</dimen>
+
+    <!-- Profile Options Title -->
+    <dimen name="profile_options_title_size">25sp</dimen>
+
+    <!-- Profile Options -->
+    <dimen name="profile_option_height">60dp</dimen>
+    <dimen name="profile_option_icon_size">48dp</dimen>
+    <dimen name="profile_option_text_size">20sp</dimen>
+</resources>

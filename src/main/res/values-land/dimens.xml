@@ -1,0 +1,9 @@
+<resources>
+    <!-- Larger profile image in landscape -->
+    <dimen name="profile_image_size">100dp</dimen>
+
+    <!-- Adjusted text sizes for landscape -->
+    <dimen name="profile_name_text_size">26sp</dimen>
+    <dimen name="profile_phone_text_size">18sp</dimen>
+    <dimen name="profile_option_text_size">22sp</dimen>
+</resources>

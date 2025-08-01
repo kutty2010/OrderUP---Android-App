@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="15dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginEnd="10dp"
+    android:clickable="true"
+    android:background="@drawable/item_background1"
+    android:elevation="5dp"
+    android:backgroundTint="#B69783"
+    android:focusable="true">
+
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="-3dp"
+        android:layout_marginEnd="10dp"
+        android:contentDescription="@string/pic" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/imageview"
+        android:layout_toEndOf="@id/imageview"
+        android:textColor="@color/black"
+        android:layout_marginTop="2dp"
+        android:textSize="20sp"
+        tools:text="Name" />
+
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginBottom="2dp"
+        android:layout_toEndOf="@id/imageview"
+        android:textColor="@color/black"
+        tools:text="Price" />
+
+
+
+</RelativeLayout>
