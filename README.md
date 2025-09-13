@@ -1,7 +1,7 @@
 OrdersUP - Production-Ready Android Ordering Application
 A comprehensive, full-stack mobile ordering application engineered for performance and scalability. This project demonstrates mastery of the Android development lifecycle, from UI/UX design and local data management to secure backend integration and robust error handling.
 
-✨ Key Features
+✨ Key Features.
 Secure User Authentication: JWT-based login and session management for secure user access.
 
 Dynamic Product Catalog: Efficiently displays a list of products using RecyclerView with optimized view recycling and smooth scrolling.
