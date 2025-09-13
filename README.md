@@ -123,5 +123,5 @@ Karthik A E - aackarthik@gmail.com
 
 Project Link: https://github.com/KarthikAE/OrdersUP-Android-App
 
-LinkedIn: https://www.linkedin.com/in/yourprofile/
+LinkedIn: https://www.linkedin.com/in/yourprofile/.
 
